@@ -69,7 +69,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 35px;
+  padding: 40px 60px;
 }
 
 #about h2 {
@@ -85,7 +85,8 @@ body {
   width: 33%;
   height: 100%;
   border-left: 2px solid black;
-  padding: 0 40px;
+  padding: 0 50px;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -103,4 +104,36 @@ body {
   font-size: 25px;
   border-radius: 50px;
   margin-right: 10px;
+}
+
+#work {
+  height: 45%;
+  width: 100%;
+  border-top: 2px solid black;
+  display: flex;
+  padding: 40px 40px;
+}
+
+#work1 {
+  height: 100%;
+  width: 35%;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  border-right: 2px solid black;
+}
+
+#work1 h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#work1 i {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#work2 {
+  height: 100%;
+  width: 65%;
 }
