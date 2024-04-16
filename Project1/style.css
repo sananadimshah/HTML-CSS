@@ -10,63 +10,79 @@ body {
   width: 100%;
 }
 
-#main {
+#imp {
   height: 100%;
   width: 100%;
+  background-color: lightgrey;
+}
+#main {
+  height: 80%;
+  width: 80%;
   background-color: white;
-  font-family: goloriya;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-style: gloria;
+}
+#nav {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 20px 40px;
 }
 
-#nav {
-  height: 100px;
-  width: 100%;
-  /* background: red; */
+#navpart1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 40px;
-}
-#nav-part1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 #nav h3 {
-  font-size: 17px;
-  border: 1.5px solid black;
+  font-size: 15px;
   font-weight: 500;
+  border: 1.5px solid black;
   padding: 5px 10px;
   border-radius: 50px;
 }
-#nav i {
-  font-size: 16px;
+#navpart1 i {
   border: 1.5px solid black;
-  font-weight: 500;
   padding: 5px 8px;
   border-radius: 50px;
+  font-weight: 400;
+}
+#navpart2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#navpart2 i {
+  color: lightgrey;
+  padding-right: 3px;
+  font-size: 22px;
 }
 #nav h1 {
+  font-size: 18px;
   font-weight: 500;
-  font-size: 22px;
+  border-radius: 50px;
   text-transform: uppercase;
 }
-
 #nav button {
-  padding: 7px 12px;
+  font-size: 13.5px;
+  font-weight: 500;
+  border: 1.5px solid black;
+  padding: 5px 10px;
   border-radius: 50px;
-  border: 1.5px solid #000;
-  font-size: 16px;
-  font-weight: 600;
-  background: rgb(255, 255, 255);
+  background: white;
 }
-#nav-part3 button:nth-child(2) {
-  background: orangered;
+#nav button:nth-child(2) {
+  background-color: lightgrey;
   color: white;
-  border: none;
 }
-
 #main > h1 {
-  font-size: 140px;
+  font-size: 120px;
+  font-weight: 100;
   text-transform: uppercase;
   position: absolute;
   top: 50%;
@@ -76,17 +92,16 @@ body {
   text-align: center;
 }
 img {
-  height: 350px;
-  width: 320px;
+  height: 42%;
+  width: 18%;
+  border-radius: 20px;
   object-fit: cover;
   object-position: top;
   position: absolute;
   top: 50%;
   left: 50%;
-  border-radius: 20px;
   transform: translate(-50%, -50%);
 }
-
 #img1 {
   transform: translate(-50%, -50%) rotate(-30deg);
 }
@@ -97,22 +112,26 @@ img {
   transform: translate(-50%, -50%) rotate(-10deg);
 }
 
-#btm-left {
+h5 {
   position: absolute;
-  bottom: 5%;
-  left: 2%;
-  font-size: 17px;
+  left: 5%;
+  bottom: 7%;
+  font-weight: 400;
 }
 #btm-right {
   position: absolute;
   bottom: 5%;
-  right: 2%;
-  font-size: 17px;
+  right: 5%;
+  font-weight: 400;
 }
 
 #icons {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 10px;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 25px;
+  margin-left: 5px;
+  padding-right: 10px;
+  font-size: 25px;
 }

@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+#intro {
+  height: 40%;
+  width: 100%;
+  padding: 60px 60px;
+  background-color: bisque;
+}
+#intro h1 {
+  font-size: 95px;
+  letter-spacing: -3px;
+  line-height: 95px;
+  color: rgb(38, 33, 33);
+}
+#place {
+  margin-top: 10px;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#place h3,
+#place h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100%;
+  padding: 20px 20px;
+}
+
+#nav h3 {
+  background-color: black;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 50px;
+  margin-left: 2px;
+}
+#heroine-img {
+  height: 80%;
+  width: 100%;
+  background-image: url(https://img.freepik.com/free-photo/young-beautiful-smiling---woman-looking-trendy-girl-casual-summer-hoodie-skirt-clothes_158538-1433.jpg?w=826&t=st=1713184346~exp=1713184946~hmac=098a6e999e532e4b73c758286a1470f5aa7c3cb49a0eaf335a1ad8cdad69c8e1);
+  background-size: cover;
+}
+#about {
+  height: 45%;
+  width: 100%;
+  background: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px;
+}
+
+#about h2 {
+  padding-top: 30px;
+  width: 65%;
+  font-weight: 600;
+  font-size: 73px;
+  line-height: 73px;
+  letter-spacing: -2px;
+}
+
+#about-pt2 {
+  width: 33%;
+  height: 100%;
+  border-left: 2px solid black;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#about-pt2 h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#icons i {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
