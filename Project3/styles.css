@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  height: 100px;
+  width: 100%;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+#nav-part1 {
+  width: 42%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#nav-part2 {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav h2 {
+  font-size: 21px;
+  font-weight: 550;
+}
+
+#nav h3 {
+  font-size: 21px;
+  font-weight: 550;
+}
+
+#nav h4 {
+  font-size: 21px;
+  font-weight: 550;
+}
+#content {
+  margin-top: 70px;
+  padding: 40px 65px;
+}
+
+#content h3 {
+  font-weight: 450;
+  font-size: 22px;
+}
+
+#content h1 {
+  margin-top: 35px;
+  font-weight: 400;
+  font-size: 160px;
+  line-height: 130px;
+  letter-spacing: -4px;
+  word-spacing: 8px;
+}
+#case {
+  padding: 40px 65px;
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#case h4 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#case h5 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+#right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+#line {
+  height: 2px;
+  width: 140px;
+  background: black;
+}
+
+#project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 60px;
+  gap: 60px;
+}
+.elem {
+  width: 50%;
+}
+.elem-img {
+  height: 550px;
+  width: 100%;
+  background: rgb(136, 190, 248);
+  border-radius: 30px;
+  background-size: cover;
+  background-position: center;
+}
+
+#img1 {
+  background-image: url(https://cdn.dribbble.com/users/46584/screenshots/3077836/attachments/648553/sketch_flat_logo.png);
+}
+#img2 {
+  background-image: url(https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/7c/3f/0f/7c3f0f8c-f45f-3e95-b6cb-1275f5e1e2a2/bee91ba7-8edb-4626-ad80-f47dc8ba0a43_2.jpg/434x0w.webp);
+}
+.buttom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.buttom i {
+  padding: 10px 25px;
+  font-size: 17px;
+  border: 2px solid black;
+  border-radius: 50px;
+  font-weight: 800;
+}
+
+.buttom i:hover {
+  background: black;
+  color: white;
+}
+
+.buttom h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.buttom h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
